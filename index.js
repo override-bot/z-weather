@@ -38,7 +38,7 @@ function parseJson() {
 function showWeather(response) {
     var container = document.getElementById('data');
     var image = document.createElement('img');
-    image.src = `http://openweathermap.org/img/wn/${response.weather[0].icon}@2x.png`;
+    image.src = `https://openweathermap.org/img/wn/${response.weather[0].icon}@2x.png`;
 
     image.className = 'image';
     container.appendChild(image);
@@ -77,19 +77,19 @@ function showForecast(response) {
     var nextHour = response.hourly[0].dt;
     var nextHourHuman = convert_unix(nextHour);
     document.getElementById('nextHour').innerHTML = nextHourHuman;
-    var nextIcon = `http://openweathermap.org/img/wn/${response.hourly[0].weather[0].icon}@2x.png`
+    var nextIcon = `https://openweathermap.org/img/wn/${response.hourly[0].weather[0].icon}@2x.png`
     document.getElementById('icon').src = nextIcon;
     document.getElementById('nextTemp').innerHTML = `${response.hourly[0].temp}&#176`;
     var nextHour2 = response.hourly[1].dt;
     var nextHourHuman2 = convert_unix(nextHour2);
     document.getElementById('nextHour2').innerHTML = nextHourHuman2;
-    var nextIcon2 = `http://openweathermap.org/img/wn/${response.hourly[1].weather[0].icon}@2x.png`
+    var nextIcon2 = `https://openweathermap.org/img/wn/${response.hourly[1].weather[0].icon}@2x.png`
     document.getElementById('icon2').src = nextIcon2;
     document.getElementById('nextTemp2').innerHTML = `${response.hourly[1].temp}&#176`;
     var nextHour3 = response.hourly[2].dt;
     var nextHourHuman3 = convert_unix(nextHour3);
     document.getElementById('nextHour3').innerHTML = nextHourHuman3;
-    var nextIcon3 = `http://openweathermap.org/img/wn/${response.hourly[2].weather[0].icon}@2x.png`
+    var nextIcon3 = `https://openweathermap.org/img/wn/${response.hourly[2].weather[0].icon}@2x.png`
     document.getElementById('icon3').src = nextIcon3;
     document.getElementById('nextTemp3').innerHTML = `${response.hourly[2].temp}&#176`;
 }
