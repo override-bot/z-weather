@@ -1,0 +1,19 @@
+{
+    "background_color": "white",
+    "description": "Weather according to your location",
+    "display": "fullscreen",
+    "icons": [{
+            "src": "android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
+    "name": "Z-weather",
+    "short_name": "Z-Weather",
+    "start_url": " https://override-bot.github.io/priceTracker/"
+}
