@@ -6,7 +6,7 @@ function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
     } else if (!(navigator.geolocation)) {
-        console.log('location not found');
+        toast();
     }
 }
 
@@ -34,6 +34,11 @@ function parseJson() {
     }
 }
 
+function toast() {
+    var x = document.getElementById("snackbar");
+    x.className = "show";
+    setTimeout(function() { x.className = x.className.replace("show", ""); }, 3000);
+}
 
 function showWeather(response) {
     var container = document.getElementById('data');
