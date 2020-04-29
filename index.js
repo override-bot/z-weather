@@ -19,9 +19,10 @@ function parseJson() {
 function showWeather(response) {
     var container = document.getElementById('data');
     var image = document.createElement('img');
+    image.className = 'image';
     image.src = `http://openweathermap.org/img/wn/${response.weather[0].icon}@2x.png`;
 
-    image.className = 'image';
+
     container.appendChild(image);
     var temp = document.createElement('p')
     temp.className = 'temp';
