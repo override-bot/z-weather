@@ -5,10 +5,20 @@ var time = new Date().getHours();
 function getLocation() {
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(showPosition);
-    } else if (!(navigator.geolocation)) {
-        toast();
     }
+
 }
+
+function error() {
+    toast();
+}
+if (!navigator.geolocation) {
+    console.log("Location not Supported");
+} else {
+    console.log("Locating…");
+}
+
+
 
 function showPosition(position) {
     window.lat = position.coords.latitude;
