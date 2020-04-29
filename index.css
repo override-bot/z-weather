@@ -162,7 +162,6 @@ input::-webkit-input-placeholder {
     cursor: pointer;
     margin: 15px;
     height: 36px;
-    font-size: 33px;
 }
 
 #demo-2 input[type=search]:hover {
