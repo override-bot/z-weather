@@ -2,7 +2,7 @@ let key = "ce2b708b22a04a488bd5ce83e7889109";
 
 function parseJson() {
     //var symbol = document.getElementById('symbol').value;
-    let link = "http://api.weatherstack.com/current?access_key=700caecc3ef3ca305c1308d2e08a8c3f&query=enugu";
+    let link = "https://api.weatherstack.com/current?access_key=700caecc3ef3ca305c1308d2e08a8c3f&query=enugu";
 
     let request = new XMLHttpRequest();
     request.open('GET', link);
