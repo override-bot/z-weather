@@ -47,18 +47,18 @@ h1 {
 
 .hours_div2 {
     flex: 1 1 auto;
-    width: 30%;
+    width: 40%;
     background-color: #384858;
-    margin: 20px;
+    margin: 10px;
     height: 550px;
     border-radius: 10px;
 }
 
 .hours_div3 {
     flex: 1 1 auto;
-    width: 30%;
+    width: 40%;
     background-color: #A86088;
-    margin: 20px;
+    margin: 10px;
     height: 550px;
     border-radius: 10px;
 }
