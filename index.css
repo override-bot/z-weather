@@ -1,16 +1,17 @@
 body {
     color: #384858;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 35px;
 }
 
 h1 {
     text-align: center;
 }
 
-i {
-    height: 70px;
-    width: 70px;
-    font-size: 50px;
+.image {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
 }
 
 #data {
@@ -25,4 +26,74 @@ i {
 
 .city {
     font-size: 40px;
+}
+
+.day {
+    font-size: 24px;
+    text-align: center;
+}
+
+.hours {
+    display: flex;
+    flex: 1 aut0;
+}
+
+.hours_div1 {
+    flex: 1 1 auto;
+    width: 20%;
+    background-color: #f08448;
+    margin: 20px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.hours_div2 {
+    flex: 1 1 auto;
+    width: 20%;
+    background-color: #384858;
+    margin: 20px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.hours_div3 {
+    flex: 1 1 auto;
+    width: 20%;
+    background-color: #A86088;
+    margin: 20px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.last-info {
+    display: flex;
+    flex: 1 auto;
+    margin-top: 25px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.v {
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+#visibility {
+    font-size: xx-large;
+}
+
+#speed {
+    font-size: xx-large;
+}
+
+.pp {
+    margin: 70px;
+}
+
+#cover {
+    font-size: xx-large;
+}
+
+#humid {
+    font-size: xx-large;
 }
