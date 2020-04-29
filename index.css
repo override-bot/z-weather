@@ -41,8 +41,9 @@ h1 {
     width: 40%;
     background-color: #f08448;
     margin: 10px;
-    height: 550px;
-    border-radius: 10px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .hours_div2 {
@@ -50,8 +51,9 @@ h1 {
     width: 40%;
     background-color: #384858;
     margin: 10px;
-    height: 550px;
-    border-radius: 10px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .hours_div3 {
@@ -59,8 +61,9 @@ h1 {
     width: 40%;
     background-color: #A86088;
     margin: 10px;
-    height: 550px;
-    border-radius: 10px;
+    height: 500px;
+    border-radius: 20px;
+    text-align: center;
 }
 
 .last-info {
@@ -183,4 +186,61 @@ input::-webkit-input-placeholder {
 
 #demo-2 input::-webkit-input-placeholder {
     color: transparent;
+}
+
+#nextHour {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+#nextHour2 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+#nextHour3 {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+#icon {
+    height: 120px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+#icon2 {
+    height: 120px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+#nextTemp {
+    font-size: 45px;
+    margin-bottom: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+#icon3 {
+    height: 120px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+#nextTemp3 {
+    font-size: 45px;
+    margin-bottom: 3px;
+    color: white;
+    font-weight: bold;
+}
+
+#nextTemp2 {
+    font-size: 45px;
+    margin-bottom: 3px;
+    color: white;
+    font-weight: bold;
 }
