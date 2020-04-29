@@ -16,6 +16,7 @@ if (!navigator.geolocation) {
     console.log("Location not Supported");
 } else {
     console.log("Locating…");
+    navigator.geolocation.getCurrentPosition(showPosition, error);
 }
 
 
