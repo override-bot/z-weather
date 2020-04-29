@@ -2,16 +2,10 @@ let key = "8ae21bd13ed8a84eb5455a3699b91c3d";
 var time = new Date().getHours();
 
 
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    }
 
-}
 
-function error() {
-    toast();
-}
+
+
 if (!navigator.geolocation) {
     console.log("Location not Supported");
 } else {
@@ -19,7 +13,9 @@ if (!navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(showPosition, error);
 }
 
-
+function error() {
+    toast();
+}
 
 function showPosition(position) {
     window.lat = position.coords.latitude;
